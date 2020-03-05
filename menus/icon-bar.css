@@ -47,6 +47,16 @@ css rules for icon bar horizontal
     color: #fff;
 }
 
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 2px 5px #6F1E51;
+    letter-spacing: 4px;
+}
+
 /*
 ==============================
  /end css rules for icon bar horizontal stat st 
