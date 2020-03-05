@@ -18,8 +18,8 @@ css rules for icon bar horizontal
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    border-bottom: 4px solid #6F1E51; 
+    background-color: #6F1E51;
+    border-bottom: 5px solid #111; 
     overflow: hidden;
 }
 .icon-bar-h a{
@@ -30,12 +30,13 @@ css rules for icon bar horizontal
     text-align: center;
     transition: all 0.3s ease;
     font-size: 36px;
-    color: #6F1E51;
+    color: #fff;
+    text-shadow: 5px 5px 7px #111;
     
 }
 
 .icon-bar-h a:hover{
-    background-color: #6F1E51;
+    background-color: #111;
     color: #fff;
 }
 
@@ -59,7 +60,46 @@ css rules for icon bar horizontal
 
 /*
 ==============================
- /end css rules for icon bar horizontal stat st 
+ /end css rules for icon bar horizontal 
 ==============================
 */
 
+/*
+==============================
+ css rules for icon bar vertical  
+==============================
+*/
+
+.icon-bar-v{
+    width: 90px;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    border-left: 10px solid #111;
+    background-color: #6F1E51;
+}
+.icon-bar-v a{
+    display: block;
+    padding: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 3px 3px 4px #111;
+    
+}
+.icon-bar-v a:hover{
+    background-color: #111;
+}
+
+.t-v{
+    float left;
+    width: 350px;
+
+}
+
+
+/*
+==============================
+ /end css rules for icon bar vertical  
+==============================
+*/
