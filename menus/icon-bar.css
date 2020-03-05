@@ -8,6 +8,12 @@ body{margin: 0;}
     clear: both;
     display: table;
 }
+
+/*
+==============================
+css rules for icon bar horizontal
+==============================
+*/
 .icon-bar-h{
     width: 100%;
     margin: 0;
@@ -40,3 +46,10 @@ body{margin: 0;}
     background-color: #111;
     color: #fff;
 }
+
+/*
+==============================
+ /end css rules for icon bar horizontal
+==============================
+*/
+
