@@ -21,17 +21,21 @@ body{margin: 0;}
     margin: 0;
     padding: 12px;
     width: 20%;
+    text-align: center;
     transition: all 0.3s ease;
     font-size: 36px;
     color: #6F1E51;
     
 }
-.icon-bar-h a:active,
+
 .icon-bar-h a:hover{
     background-color: #6F1E51;
     color: #fff;
 }
 
+.icon-bar-h a:active{
+    background-color: #111;
+}
 .icon-bar-h a.active{
     background-color: #111;
 }
