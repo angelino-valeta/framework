@@ -19,7 +19,7 @@ css rules for icon bar horizontal
     margin: 0;
     padding: 0;
     background-color: #6F1E51;
-    border-bottom: 5px solid #111; 
+    border-bottom: 7px solid #111; 
     overflow: hidden;
 }
 .icon-bar-h a{
@@ -36,8 +36,8 @@ css rules for icon bar horizontal
 }
 
 .icon-bar-h a:hover{
-    background-color: #111;
-    color: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 3px 4px 4px rgba(0,0,0,0.360);
 }
 
 .icon-bar-h a:active{
@@ -88,6 +88,10 @@ css rules for icon bar horizontal
     
 }
 .icon-bar-v a:hover{
+    border-radius: 7px;
+    box-shadow: 1px 0 3px 2px rgba(0,0,0,0.356); 
+}
+.icon-bar-v a:active{
     background-color: #111;
 }
 
