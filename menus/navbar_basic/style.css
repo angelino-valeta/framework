@@ -1,0 +1,48 @@
+*{box-sizing: border-box}
+body{margin:0;}
+
+/*
+==================
+Rule Css: Navigation Bar Vertical
+*/
+.navbar-vertical{
+	width: 250px;
+	margin: 10px;
+	float: left;
+	overflow: auto;
+}
+.navbar-vertical ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+	overflow: auto;
+}
+.navbar-vertical ul li{
+	
+}
+.navbar-vertical li a{
+	display: block;
+	color: #222;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+.navbar-vertical li a.active{
+	background-color: #2FCA20;
+	color: #fff;
+}
+
+.navbar-vertical li a:hover:not(.active){
+	background-color: #333;
+	color: #fff;
+}
+/*
+=====================
+End Navigation Bar Vertical
+*/
+
+/*
+=====================
+Css Rules: Navigation Bar Horizontal
+*/
