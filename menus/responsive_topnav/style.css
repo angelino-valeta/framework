@@ -1,7 +1,7 @@
 *{box-sizing: border-box}
 body{margin: 0;}
 
-.nav ul{
+.nav ul, .navbasic ul{
 	width: 100%;
 	list-style-type: none;
 	margin:0;
@@ -9,36 +9,73 @@ body{margin: 0;}
 	background-color: #ddd;
 	overflow: auto;
 }
-.nav li{
+
+.nav ul{
+	width: 25%;
+	position: fixed;
+	top: 0;
+	height: 100%;
+}
+
+.navbasic li{
 	float: left;
 }
-.nav a.active{
+.nav a.active, .navbasic a.active{
 	background-color: #999;
 	color: #fff;
 }
-.nav .right{
+.navbasic .right{
 	float: right;
 }
-.nav li a{
+.nav li a, .navbasic li a{
 	display: inline-block;
 	text-decoration: none;
 	color: #777;
 	padding: 14px 14px;
 }
-.nav li a:hover:not(.active){
+
+.nav li a{
+	display: block;
+}
+.nav li a:hover:not(.active), .navbasic li a:hover:not(.active){
 	background-color: #ccc;
 }
 
-/*Responsive*/
-@media screen and (max-width: 600px){
-	.nav li a{
-		display: block;
-	}
-	.nav li, .nav .right{
-		float: none;
-	}
+.main{
+	margin-left: 25%;
+	padding: 2px 16px;
+	height: 1000px;
 }
 
-.main{
-	padding: 2px 16px;
+/*Responsive*/
+
+@media screen and (max-width: 900px){
+	
+	.nav ul{
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+	.nav li a{
+		float: left;
+		padding: 15px;
+	}
+	
+	.right{
+		float: right;
+	}	
+
+	.main{
+		margin-left: 0;
+	}	
 }
+
+
+@media screen and (max-width: 600px){
+	.nav li a, .nav li, .navbasic li, .navbasic li a{
+		text-align: center;
+		float: none;
+	}
+	
+}
+
