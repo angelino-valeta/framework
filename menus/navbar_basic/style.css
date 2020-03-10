@@ -1,6 +1,15 @@
 *{box-sizing: border-box}
 body{margin:0;}
 
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+header{
+	margin: 0 60px;
+}
 /*
 ==================
 Rule Css: Navigation Bar Vertical
@@ -24,6 +33,7 @@ Rule Css: Navigation Bar Vertical
 .navbar-vertical li a{
 	display: block;
 	color: #222;
+	transition: all 0.3s ease;
 	text-decoration: none;
 	padding: 14px 16px;
 }
@@ -46,3 +56,62 @@ End Navigation Bar Vertical
 =====================
 Css Rules: Navigation Bar Horizontal
 */
+
+.navbar-horizontal{
+	width: 70%;
+	float: left;
+	margin: 10px;
+	overflow: auto;
+}
+.navbar-horizontal ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+	overflow: auto;
+}
+
+.navbar-horizontal ul:last-child{
+	margin-top: 20px;
+	background-color: #ddd;
+}
+
+.navbar-horizontal ul:last-child li a{
+	color: #666;	
+}
+.navbar-horizontal li{
+	float: left;
+}
+.navbar-horizontal li a{
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	color: #fff;
+	padding: 14px 16px;
+}
+
+.navbar-horizontal li:last-child{
+	float: right;
+}
+
+.navbar-horizontal ul:last-child li a.active{
+	background-color: #777;
+	color: #eee;
+}
+.navbar-horizontal li a.active{
+	background-color: #2FCA20;
+}
+
+.navbar-horizontal ul:last-child li a:hover:not(.active){
+	background-color: #ccc;
+}
+
+.navbar-horizontal li a:hover:not(.active){
+	background-color: #222;
+}
+
+/*
+====================
+End Navigation Bar Horizontal
+*/
+
