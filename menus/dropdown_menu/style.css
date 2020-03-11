@@ -10,7 +10,7 @@ body{margin: 0;}
 	background-color: #555;
 }
 
-.dropdown, .dropd{
+.dropdown, .dropd, .drop-img{
 	position: relative;
 	display: inline-block;
 }
@@ -59,10 +59,11 @@ body{margin: 0;}
 
 main{
 	margin-top: 40px;
+	height: 1500px;
 	padding: 2px 16px;
 }
-.btn{
-	padding: 16px;
+.btn{	
+	padding: 14px 18px;
 	border: none;
 	font-size: 1em;
 	color: #777;
@@ -74,12 +75,25 @@ main{
 	color: #fff;
 }
 
+.row{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 70%;
+	padding: 20px;
+}
+
+.dropd{
+	float:left;
+}
+
 .dropd-content{
 	display: none;
 	min-width: 160px;
 	position: absolute;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	z-index: 2;
+	background-color: #f1f1f1;
 }
 .dropd-content a{
 	display: block;
@@ -89,6 +103,36 @@ main{
 }
 
 .dropd:hover .dropd-content{
+	display: block;
+}
+
+.drop-img{	
+	margin: auto
+}
+
+.drop-img .img{
+	width: 150px;
+	height: auto;
+}
+
+.drop-img .img-content{
+	display: none;
+	margin: auto;
+	position: absolute;
+	top: 190px;
+	right: -60px;
+	box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.3);
+}
+
+.img-content img{
+	width: 350px;
+	height: auto;
+}
+.img-content p{
+	padding: 10px;
+	text-align: center;
+}
+.drop-img:hover .img-content{
 	display: block;
 }
 
