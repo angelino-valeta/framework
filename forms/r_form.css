@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+
+body{background-color: #f1f1f1;}
+
+.container{
+	background-color: #fff;
+	margin: 40px;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.form{
+	padding: 25px;
+}
+
+.col-75{
+	width: 75%;
+	float: right;
+	margin-top: 6px;
+}
+.col-25{
+	width: 25;
+	float: left;
+	margin-top: 6px;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+label{
+	padding: 20px;
+	display: inline-block;
+	color: #555;
+}
+
+input[type="text"], #country, #subject{
+	padding: 14px 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+	resize: vertical;	
+}
+
+input[type="submit"]{
+	float: right;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.350); 
+	background-color: #fff;
+	border-radius: 5px;
+	color: #666;
+	margin-top: 6px;
+
+}
+input[type="submit"]:hover{
+	background-color: #666;
+	color: #fff;
+}
+
+@media screen and (max-width: 650px){
+	input[type="submit"]{
+		width: 100%
+	}
+	label{
+		padding: 8px;
+	}
+	.col-25, .col-75{
+		margin-top: 0;
+		float: none;
+		width: 100%;
+	}
+}
