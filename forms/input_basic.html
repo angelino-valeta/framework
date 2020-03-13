@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+	<title>Inputs</title>
+    	<style>
+		*{box-sizing: border-box}
+		form{
+			
+			width: 70%;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			margin: auto;
+			box-shadow: 0 4px 4px 0 rgba(0,0,0,0.360);
+		}
+		.col{
+			display: block;
+			margin-top:8px;
+		}
+		input[type="search"], select, textarea{
+			width: 40%;
+			transition: width 0.4s ease-in-out;
+			display: block;
+			margin: auto;
+			padding: 12px 20px;
+			border: 2px solid #ddd
+		}
+		
+		textarea{
+			resize: none;
+			height: 200px;
+		}
+
+		input[type="search"]:focus, textarea:focus{
+			width: 100%;
+		}
+
+	</style>
+    </head>
+    <body>
+    	<form action="#">
+		<div class="col">
+			<input type="search" name="search" placeholder="Search..">
+		</div>
+		<div class="col">
+		    <select name="front-end">	    
+			<option value="html">HTML</option>
+		    	<option value="css">CSS</option>
+		    	<option value="js">JavaScript</option>
+		    </select>
+		<div class="col">    
+		    <textarea placeholder="write here.."></textarea>
+		</div>
+	</form>
+    
+    </body>
+</html>
