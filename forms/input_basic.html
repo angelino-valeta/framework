@@ -22,13 +22,24 @@
 		}
 		input[type="search"], select, textarea{
 			width: 40%;
+			background-color: #fff;
 			transition: width 0.4s ease-in-out;
 			display: block;
 			margin: auto;
 			padding: 12px 20px;
-			border: 2px solid #ddd
+			border: none;
+			box-shadow: 0 2px 2px 0 rgba(0,0,0,0.350);
 		}
 		
+		input[type="search"]{
+			background: url('search-outline.svg');
+			background-size: 23px;
+			background-position: 8px 8px;
+			background-repeat: no-repeat;
+			padding-left: 35px;
+			
+		}
+
 		textarea{
 			resize: none;
 			height: 200px;
@@ -36,6 +47,7 @@
 
 		input[type="search"]:focus, textarea:focus{
 			width: 100%;
+			background-color: #fff;
 		}
 
 	</style>
@@ -55,6 +67,5 @@
 		    <textarea placeholder="write here.."></textarea>
 		</div>
 	</form>
-    
     </body>
 </html>
