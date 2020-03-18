@@ -1,5 +1,10 @@
 *{box-sizing: border-box;}
 
+.hamburguer{
+	display: inline-block;
+	position: relative;
+}
+
 .menu-icon{
 	display: inline-block;
 	cursor: pointer;
@@ -8,8 +13,8 @@
 	width: 35px;
 	height: 5px;
 	background-color: #444;
-	border-radius: 5px;
-	margin: 6px 0;
+	border-radius: 4px;
+	margin: 5px 0;
 	transition: 0.4s;
 }
 
@@ -25,4 +30,23 @@
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
 	transform: rotate(45deg) translate(-8px, -8px);
 }
-	
+
+.content{
+	position: absolute;
+	opacity: 0;
+	background-color: #f1f1f1;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	min-width: 260px;
+	z-index: 1;
+	transition: 0.4s;
+}
+.content a{
+	display: block;
+	padding: 12px 14px;
+	color: #666;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.content a:hover{
+	background-color: #ddd;
+}
