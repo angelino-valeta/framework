@@ -16,11 +16,11 @@ for(let i = 0; i < menuIcon.length; i++){
         
         let content = this.nextElementSibling
         
-        if(content.style.display === 'block'){
+        if(content.style.maxHeight){
             
-            content.style.display = 'none'
+            content.style.maxHeight = null
         }else{
-            content.style.display = 'block'
+            content.style.maxHeight = content.scrollHeight + 'px'
         }
 
     })
