@@ -32,14 +32,14 @@
 }
 
 .content{
-    
-    display: none;
 	position: absolute;
 	background-color: #f1f1f1;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	min-width: 260px;
 	z-index: 1;
-	transition: 0.4s;
+    overflow: hidden;
+    max-height:0;
+    transition: max-height 0.4s ease-out; 
 }
 .content a{
 	display: block;
