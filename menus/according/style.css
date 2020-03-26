@@ -12,13 +12,16 @@
   transition: 0.4s;
 }
 
+
+
 .active, .accordion:hover {
   background-color: #ccc; 
 }
 
 .panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s;
 }
