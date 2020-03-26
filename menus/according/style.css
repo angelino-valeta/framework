@@ -12,12 +12,20 @@
   transition: 0.4s;
 }
 
-
+.accordion::after{
+    content: "\2795";
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
 
 .active, .accordion:hover {
   background-color: #ccc; 
 }
-
+.active::after{
+    content: "\2796";
+}
 .panel {
     padding: 0 18px;
     background-color: white;
