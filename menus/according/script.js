@@ -8,10 +8,12 @@ for(let i = 0; i < acc.length; i++){
         
         let panel = this.nextElementSibling
         
-        if(panel.style.display === 'none'){
-            panel.style.display = 'block'
+        if(panel.style.maxHeight){
+            
+            panel.style.maxHeight = null
+            
         }else{
-            panel.style.display = 'none'
+            panel.style.maxHeight = panel.scrollHeight + 'px'
         }
         
     })
