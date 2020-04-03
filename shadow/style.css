@@ -31,11 +31,15 @@
 	height: 100px;
 	box-shadow: 0 15px 20px 0 rgba(0,0,0,0.3);
 }
+.container{
+	width: 70%;
+	margin: auto;
+}
 
 .card{
 	width: 250px;
-	margin: 0;
 	display: inline-block;
+	margin: 50px;
 	text-align: center;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.19);			
 }
