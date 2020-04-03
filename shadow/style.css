@@ -14,10 +14,25 @@
 .shadow{
 	margin: auto;
 	width: 200px;
+	position: relative;
 	padding: 10px;
 	text-align: center;
-	box-shadow: 2px 3px 8px rgba(0,0,0, .5);
-	border: 1px solid violet;
-	border-style: offset;
+	box-shadow: 1px 2px 4px rgba(0,0,0, 0.3);	
+	background-color: white;
 
+}
+.shadow::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 15%;
+	z-index: -1;
+	width: 70%;
+	height: 100px;
+	box-shadow: 0 15px 20px 0 rgba(0,0,0,0.3);
+}
+
+.card{
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.19);	
+		
 }
