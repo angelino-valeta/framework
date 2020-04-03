@@ -33,6 +33,25 @@
 }
 
 .card{
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.19);	
-		
+	width: 250px;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.19);			
+}
+
+.header{
+	
+	padding: 2px;	
+	font-size: 50px;
+	background-color: darkblue;
+	color: white;
+}
+
+.card img{
+	width: 100%;
+}
+
+.content{
+	padding: 10px;
 }
