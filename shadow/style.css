@@ -10,3 +10,14 @@
 	text-align: center;
 	text-shadow: 0 0 3px violet, 0 0 5px darkblue;
 }
+
+.shadow{
+	margin: auto;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 3px 8px rgba(0,0,0, .5);
+	border: 1px solid violet;
+	border-style: offset;
+
+}
