@@ -29,3 +29,10 @@ body{
 		background-color: #777;
 	}
 }
+
+/*Large devices (laptop and desktop, 992px and up) */
+@media only screen and (min-width: 992px){
+	.example{
+		background-color: #005e52;
+	}
+}
