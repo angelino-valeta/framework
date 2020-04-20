@@ -17,4 +17,9 @@ body{
 		background-color: darkblue;
 	}
 }
-
+/*Small devices (portrait tablets and large phone, 600px and up) */
+@media only screen and (min-width: 600px){
+	.example{
+		background-color: #DCA50e;
+	}
+}
