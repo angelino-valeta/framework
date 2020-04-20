@@ -11,7 +11,7 @@ body{
 	background-color: #ffb5b5;
 }
 
-/*Small devices (phones, 600px and down) */
+/*Extra Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px){
 	.example{
 		background-color: darkblue;
