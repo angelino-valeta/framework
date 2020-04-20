@@ -8,7 +8,6 @@ body{
 .example{
 	padding: 12px;
 	color: white;
-	background-color: #ffb5b5;
 }
 
 /*Extra Small devices (phones, 600px and down) */
@@ -21,5 +20,12 @@ body{
 @media only screen and (min-width: 600px){
 	.example{
 		background-color: #DCA50e;
+	}
+}
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+	.example{
+		background-color: #777;
 	}
 }
