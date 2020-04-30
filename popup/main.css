@@ -39,6 +39,7 @@ body{
 	margin: 10% auto;
 	position: relative;
 	text-align: center;
+	border-radius: 5px;
 }
 
 .close{
@@ -55,6 +56,7 @@ body{
 	padding: 16px 24px;
 	color: #fff;
 	background-color: darkblue;
+	border-radius: 5px;
 }
 
 .popup p{
