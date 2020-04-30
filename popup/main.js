@@ -13,3 +13,7 @@ btn.addEventListener('click', () =>{
 close.addEventListener('click', () =>{
 	popup.classList.toggle('showpopup')	
 })
+
+popup.addEventListener('click', () => {
+	popup.classList.remove('showpopup')
+})
