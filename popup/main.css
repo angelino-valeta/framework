@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+
+body{
+	margin: 0;
+}
+
+.btn{
+	border: none;
+	background-color: darkblue;
+	padding: 16px 24px;
+	margin: 5% auto;
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: 0.2s all;
+}
+.btn:hover{
+	background-color: blue;
+}
