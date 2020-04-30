@@ -5,5 +5,11 @@ const close = document.querySelector('.close')
 //console.log(popup)
 btn.addEventListener('click', () =>{
 	//console.log('click')
-	popup.style.display = 'block'
+	//popup.style.display = 'block'
+	popup.classList.add('showpopup')
+
+})
+
+close.addEventListener('click', () =>{
+	popup.classList.toggle('showpopup')	
 })
