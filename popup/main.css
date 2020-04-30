@@ -35,9 +35,20 @@ body{
 	background-color: #fff;
 	width: 100%;
 	max-width: 400px;
-	padding: 20px;
+	padding: 20px 20px 30px 20px;
 	margin: 10% auto;
 	position: relative;
+	text-align: center;
+}
+.popup a{
+	text-decoration: none;
+	padding: 16px 24px;
+	color: #fff;
+	background-color: darkblue;
+}
+
+.popup p{
+	margin: 24px 0;
 }
 
 
